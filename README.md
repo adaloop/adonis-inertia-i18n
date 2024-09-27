@@ -1,0 +1,1 @@
+# @adaloop/adonis-inertia-i18n
