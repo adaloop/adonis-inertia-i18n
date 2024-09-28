@@ -1,7 +1,7 @@
 {
   "name": "@adaloop/adonis-inertia-i18n",
   "description": "Adonis i18n support for Inertia.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "node": ">=20.6.0"
   },
