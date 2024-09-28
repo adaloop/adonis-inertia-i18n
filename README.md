@@ -7,7 +7,7 @@
 [![npm version](https://badge.fury.io/js/%40adaloop%2Fadonis-inertia-i18n.svg)](https://badge.fury.io/js/%40adaloop%2Fadonis-inertia-i18n)
 [![License](https://img.shields.io/github/license/adaloop/adonis-inertia-i18n)](https://img.shields.io/github/license/adaloop/adonis-inertia-i18n)
 
-This package provide a simple way to use @adonisjs/i18n in your [AdonisJS](https://adonisjs.com) application using [InertiaJS](https://inertiajs.com).
+This package provide a simple way to use `@adonisjs/i18n` in your [AdonisJS](https://adonisjs.com) application using [InertiaJS](https://inertiajs.com).
 
 ## Installation
 
