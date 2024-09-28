@@ -13,7 +13,8 @@
   ],
   "exports": {
     ".": "./build/index.js",
-    "./types": "./build/src/types.js"
+    "./hooks/react": "./build/src/hooks/react/index.js",
+    "./hooks/vue": "./build/src/hooks/vue/index.js"
   },
   "scripts": {
     "clean": "del-cli build",
@@ -36,8 +37,11 @@
     "@adonisjs/core": "^6.12.0",
     "@adonisjs/eslint-config": "^1.3.0",
     "@adonisjs/i18n": "^2.1.1",
+    "@adonisjs/inertia": "^1.2.1",
     "@adonisjs/prettier-config": "^1.3.0",
     "@adonisjs/tsconfig": "^1.3.0",
+    "@inertiajs/react": "^1.2.0",
+    "@inertiajs/vue3": "^1.2.0",
     "@japa/assert": "^3.0.0",
     "@japa/runner": "^3.1.4",
     "@swc/core": "^1.6.3",
@@ -49,18 +53,21 @@
     "np": "^10.0.6",
     "prettier": "^3.3.2",
     "ts-node": "^10.9.2",
-    "typescript": "^5.4.5"
+    "typescript": "^5.4.5",
+    "vue": "^3.5.10"
   },
   "peerDependencies": {
-    "@adonisjs/core": "^6.2.0",
-    "@adonisjs/i18n": "^2.1.1"
+    "@inertiajs/react": "^1.2.0",
+    "@inertiajs/vue3": "^1.2.0",
+    "vue": "^3.5.10"
   },
   "author": "adaloop <hello@adaloop.com>",
   "license": "MIT",
   "keywords": [
     "adonis",
     "inertia",
-    "i18n"
+    "i18n",
+    "typescript"
   ],
   "eslintConfig": {
     "extends": "@adonisjs/eslint-config/package"
